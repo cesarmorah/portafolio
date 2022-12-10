@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+
+}
+a{
+    text-decoration: none;
+}
+/* class */
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+.exp{
+    font-size: 20px;
+
+}
+
+/* encabezado */
+.encabezado{
+    background:url("/portafolio/img/encabezado.jpeg");
+    height: 400px;
+    /* Implementar: no repetir imagen */
+    
+}
+/* Nav */
+
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+#navbar .logo{
+    float: left;
+    padding-top: 16px;
+
+}
+#navbar img{
+    height: 40px;
+}
+#navbar a{
+    color: rgb(68, 67, 67);
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+
+    
+}
+#navbar ul li {
+    float: left;
+
+}
+#navbar ul li a {
+    display: block;
+    padding: 30px;
+}
+.lista{
+    display: block;
+    padding:20px;
+}
